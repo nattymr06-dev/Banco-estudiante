@@ -5,10 +5,10 @@ const saldoInicial = 1000;
 // Función para procesar retiro
 function procesarRetiro(nombre, correo, monto) {
 if (monto <= saldoInicial) {
-return { ok: true, mensaje: `Hola ${nombre}, retiro aprobado`, saldo: saldoInicial -
+return { ok: true, mensaje: `Hola,bienvenido al sistema bancario de Natalia Morales ${nombre}, retiro aprobado`, saldo: saldoInicial -
 monto };
 } else {
-return { ok: false, mensaje: `Hola ${nombre}, no tienes suficiente saldo`, saldo:
+return { ok: false, mensaje: `Hola, bienvenido al sistema bancario de Natalia Morales ${nombre}, no tienes suficiente saldo`, saldo:
 saldoInicial };
 
 }
